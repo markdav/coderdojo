@@ -1,6 +1,4 @@
 #!/bin/bash
-#Script written by Umair <noobslab.com@gmail.com> Mon, 08 Sep 2014 02:24:08 +0200
-#Site: http://www.NoobsLab.com
 if [ $EUID -ne 0 ]; then
    echo "AdobeAir installation script must be run as root. (Hint: use sudo)" 1>&2
    exit 1
@@ -283,7 +281,5 @@ echo "Downloading AdobeAir Installer from Adobe site"
 	rm /usr/lib/libgnome-keyring.so.0
 	rm /usr/lib/libgnome-keyring.so.0.2.0
 echo ""
-echo "Keep visit on http://www.NoobsLab.com
-"
 sleep 1
 exit 1
