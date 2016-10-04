@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+# Script to install Scratch on Ubuntu flavours
+# This installs the last version of Adobe Air for linux (security where are ya?)
+# followed by Scratch itself. 
+#
+
 if [ $EUID -ne 0 ]; then
    echo "AdobeAir installation script must be run as root. (Hint: use sudo)" 1>&2
    exit 1
